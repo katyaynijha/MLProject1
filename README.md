@@ -1,6 +1,7 @@
 # Starting end-to-end ML project
 first initilize git
 ...
+either use GUI in vscode or  do manually
 for manual - write gollowing code in CMD 
 initialize git using git init
 git add .- it will add all files to git
