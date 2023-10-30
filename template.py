@@ -13,7 +13,7 @@ list_of_files=[
     "github/workflows/.gitkeep",
     f"src/{package_name}/__init__.py", # __init__.py files are used to define and mark directories as Python packages,allowing us to organize and import modules within our project.
     f"src/{package_name}/components/__init__.py",
-    f"src/{package_name}/components/data_ingestion.py",
+    f"src/{package_name}/components/data_ingestion.py", #All .py files are our modules
     f"src/{package_name}/components/data_transformation.py",
     f"src/{package_name}/components/model_trainer.py",
     f"src/{package_name}/pipelines/__init__.py",
@@ -48,5 +48,4 @@ for filepath in list_of_files:
             pass
     else:
         print("file already exists")
-
 
